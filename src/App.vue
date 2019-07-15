@@ -6,7 +6,7 @@
            
             <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                
-                <h1>Rendering Lists in Vue</h1>
+                <app-portfolio-title></app-portfolio-title>
                 
                 <hr>
 
@@ -25,12 +25,15 @@
 <script>
     
     import Header from "./components/Header.vue";
+    import PortfolioTitle from "./components/PortfolioTitle";
 
     export default {
         
         components: {
             
-            appHeader:Header
+            appHeader:Header,
+
+            appPortfolioTitle:PortfolioTitle,
             
         },
 
