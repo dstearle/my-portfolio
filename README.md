@@ -33,8 +33,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 <strong>To Do List:</strong>
 
 - Fix HMR error (sockjs related from previous project?)
-- Portfolio title
-- About Section
-- Portfolio Area
-- Contact Are
+- Portfolio Title: Get Yesteryear font, Set up banner
+- About Section: Import avatar, import images for education
+- Portfolio Area: Work on RipeMetrics chart area
+- Contact Area
 - Parallax feature?
