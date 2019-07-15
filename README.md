@@ -27,3 +27,14 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+<br>
+
+<strong>To Do List:</strong>
+
+- Fix HMR error (sockjs related from previous project?)
+- Portfolio title
+- About Section
+- Portfolio Area
+- Contact Are
+- Parallax feature?
