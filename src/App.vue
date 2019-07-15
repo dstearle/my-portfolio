@@ -13,6 +13,8 @@
                 <app-header></app-header>
                 
                 <router-view></router-view>
+
+                <app-footer></app-footer>
                 
             </div>
             
@@ -26,14 +28,17 @@
     
     import Header from "./components/Header.vue";
     import PortfolioTitle from "./components/PortfolioTitle";
+    import Footer from "./components/Footer.vue";
 
     export default {
         
         components: {
             
-            appHeader:Header,
+            appHeader: Header,
 
-            appPortfolioTitle:PortfolioTitle,
+            appPortfolioTitle: PortfolioTitle,
+
+            appFooter: Footer,
             
         },
 
