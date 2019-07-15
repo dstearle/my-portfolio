@@ -1,28 +1,97 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+   
+    <div class="container">
+       
+        <div class="row">
+           
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+               
+                <h1>Rendering Lists in Vue</h1>
+                
+                <hr>
+
+                <app-header></app-header>
+                
+                <router-view></router-view>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    
+    import Header from "./components/Header.vue";
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
+    export default {
+        
+        components: {
+            
+            appHeader:Header
+            
+        },
+
+    }
+    
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+    
+    body {
+        
+        padding: 30px;
+        
+    }
+
+    .slide-enter-active {
+
+        animation: slide-in 200ms ease-out forwards;
+
+    }
+
+    .slide-leave-active {
+
+        animation: slide-out 200ms ease-out forwards;
+
+    }
+
+    @keyframes slide-in {
+
+        from {
+
+            transform: translateY(-30px);
+            opacity: 0;
+
+        }
+
+        to {
+
+            transform: translateY(0px);
+            opacity: 1;
+
+        }
+
+    }
+
+       @keyframes slide-out {
+
+        from {
+
+            transform: translateY(0px);
+            opacity: 1;
+
+        }
+
+        to {
+
+            transform: translateY(-30px);
+            opacity: 0;
+
+        }
+
+    } 
+
 </style>
