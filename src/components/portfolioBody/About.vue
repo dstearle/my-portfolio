@@ -1,0 +1,91 @@
+<template>
+    
+    <div class="container">
+
+        <div id="mainPhotoDiv">
+            
+            <img src="images/myPhoto2.jpg" id="mainPhoto" class="imgclass1" alt="Dallas Head Shot">
+            
+        </div>
+
+        <h3>Introduction</h3>
+        
+        <br>
+
+        <p>
+            Hey there! My name is Dallas and I am currently a Fullstack Webdeveloper interning for a start up company called RipeMetrics. I have been
+            living in San Diego since 2018 and have been working hard to learn the skills and knowledge needed to become an amazing developer. I love 
+        </p>
+    
+        <br><br>
+        
+        <div>
+            
+            <h3>Education</h3>
+        
+            <br>
+            
+            <div style="text-align:center;">
+                
+                <div style="display:inline-block">
+                    
+                    <div >
+                    
+                        <div class="portfolioImages">
+
+                            <img src="images/palomarSeal.gif" class="imgClass3">
+
+                        </div>
+                    
+                    </div>
+
+                    <div >
+
+                        <h4>Palomar Community College (2017-2019)</h4>
+
+                        <ul>
+                            <li>Associates: Computer Science Information Technology</li>
+                            <li>Certificate: Web Development</li>
+                        </ul>
+
+                    </div>
+                    
+                </div>
+        
+                <div style="display:inline-block">
+                    
+                    <div >
+                    
+                        <div class="portfolioImages">
+
+                            <img src="images/csusbSeal.png" class="imgClass3">
+
+                        </div>
+                    
+                    </div>
+
+                    <div >
+
+                        <h4>California State University San Bernardino (2009-2013)</h4>
+        
+                        <ul>
+                            <li>Bachelors: Anthropology</li>
+                            <li>Minor: Criminal Justice</li>
+                        </ul>
+
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            <p>
+                For the past couple years I have been taking classes through Palomar College to see what the world of web development and tech was like.
+                I first started with a certificate program for web development and learned many of the basic skills needed to code such as basic html, css and javascript. When I had finished, I felt that this was definitely a career I could see myself thriving in so I decided to continue my education by completing an associates degree. From there I delved further into more advance classes and refined my skills in coding. Although I may have completed both a cerficate program and an associates, there is always more to learn!
+            </p>
+
+        </div>
+
+    </div>
+    
+</template>
