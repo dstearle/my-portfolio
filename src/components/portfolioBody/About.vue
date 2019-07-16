@@ -25,9 +25,9 @@
         
             <br>
             
-            <div style="text-align:center;">
+            <div class="row">
                 
-                <div style="display:inline-block">
+                <div class="col-6">
                     
                     <div >
                     
@@ -41,7 +41,7 @@
 
                     <div >
 
-                        <h4>Palomar Community College (2017-2019)</h4>
+                        <h6>Palomar Community College (2017-2019)</h6>
 
                         <ul>
                             <li>Associates: Computer Science Information Technology</li>
@@ -52,7 +52,7 @@
                     
                 </div>
         
-                <div style="display:inline-block">
+                <div class="col-6">
                     
                     <div >
                     
@@ -66,7 +66,7 @@
 
                     <div >
 
-                        <h4>California State University San Bernardino (2009-2013)</h4>
+                        <h6>California State University San Bernardino (2009-2013)</h6>
         
                         <ul>
                             <li>Bachelors: Anthropology</li>
