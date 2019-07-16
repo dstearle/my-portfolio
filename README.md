@@ -34,7 +34,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 - Fix HMR error (sockjs related from previous project?)
 - Portfolio Title: Get Yesteryear font, Set up banner
-- About Section: Import avatar, import images for education
+- About Section: Import avatar, import images for education, rewrite introduction
 - Portfolio Area: Work on RipeMetrics chart area, add RM logo and site preview, create workexperience and personal projects area
 - Contact Area: Maybe new contact form?
 - Parallax feature?
