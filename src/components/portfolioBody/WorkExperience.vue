@@ -6,9 +6,9 @@
                 
         <br>
     
-        <div>
+        <div class="row">
             
-            <div style="display:inline-block">
+            <div class="col-6">
                 
                 <div class="portfolioImages">
 
@@ -18,7 +18,7 @@
                 
             </div>
 
-            <div style="display:inline-block">
+            <div class="col-6">
 
                 <h3 class="highlight">RipeMetrics (2018 - Current)</h3>
 
