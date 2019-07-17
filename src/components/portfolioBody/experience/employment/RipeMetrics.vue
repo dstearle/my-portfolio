@@ -2,17 +2,13 @@
     
     <div class="container">
 
-        <h3>Work Experience</h3>
-                
-        <br>
-    
         <div class="row">
             
             <div class="col-6">
                 
                 <div class="text-align-center">
 
-                    <img src="./../../assets/images/ripeMetricsLogo.png" class="imgClass3">
+                    <img src="./../../../../assets/images/ripeMetricsLogo.png" class="imgClass3">
 
                 </div>
                 
@@ -56,11 +52,5 @@
         </p>
 
     </div>
-    
+
 </template>
-
-<style>
-
-    .imgClass3 {max-height: 250px; max-width: 400px;}
-
-</style>

@@ -13,7 +13,7 @@
 <script>
     
     import About from "./portfolioBody/About";
-    import WorkExperience from "./portfolioBody/WorkExperience";
+    import WorkExperience from "./portfolioBody/experience/ExperienceIndex";
 
     export default {
         
