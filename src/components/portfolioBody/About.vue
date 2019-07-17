@@ -29,7 +29,7 @@
                 
                 <div class="col-6">
                     
-                    <div class="">
+                    <div class="text-align-center">
                     
                         <img src="./../../assets/images/palomarSeal.gif" class="imgClass3">
                     
@@ -50,7 +50,7 @@
         
                 <div class="col-6">
                     
-                    <div class="">
+                    <div class="text-align-center">
                     
                         <img src="./../../assets/images/csusbSeal.png" class="imgClass3">
                     
