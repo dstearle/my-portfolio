@@ -4,7 +4,7 @@
 
         <div id="mainPhotoDiv">
             
-            <img src="images/myPhoto2.jpg" id="mainPhoto" class="imgclass1" alt="Dallas Head Shot">
+            <img src="./../../assets/images/DallasProfilePic.jpg" class="imgclass1" alt="Dallas Head Shot">
             
         </div>
 
@@ -84,6 +84,6 @@
 
 <style>
 
-    .imgClass3 {max-height: 250px; max-width: 400px;}
+    .imgclass1 {border: none; border-radius: 50%; max-height: 250px; max-width: 400px;}
 
 </style>
