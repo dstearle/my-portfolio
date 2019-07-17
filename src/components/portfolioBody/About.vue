@@ -29,13 +29,9 @@
                 
                 <div class="col-6">
                     
-                    <div >
+                    <div class="">
                     
-                        <div class="portfolioImages">
-
-                            <img src="images/palomarSeal.gif" class="imgClass3">
-
-                        </div>
+                        <img src="./../../assets/images/palomarSeal.gif" class="imgClass3">
                     
                     </div>
 
@@ -54,13 +50,9 @@
         
                 <div class="col-6">
                     
-                    <div >
+                    <div class="">
                     
-                        <div class="portfolioImages">
-
-                            <img src="images/csusbSeal.png" class="imgClass3">
-
-                        </div>
+                        <img src="./../../assets/images/csusbSeal.png" class="imgClass3">
                     
                     </div>
 
@@ -89,3 +81,9 @@
     </div>
     
 </template>
+
+<style>
+
+    .imgClass3 {max-height: 250px; max-width: 400px;}
+
+</style>
