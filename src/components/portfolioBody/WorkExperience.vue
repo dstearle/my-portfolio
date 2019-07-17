@@ -10,9 +10,9 @@
             
             <div class="col-6">
                 
-                <div class="portfolioImages">
+                <div class="text-align-center">
 
-                    <img src="images/ripeMetrics2.png" class="imgClass3">
+                    <img src="./../../assets/images/ripeMetricsLogo.png" class="imgClass3">
 
                 </div>
                 
@@ -58,3 +58,9 @@
     </div>
     
 </template>
+
+<style>
+
+    .imgClass3 {max-height: 250px; max-width: 400px;}
+
+</style>
