@@ -6,6 +6,8 @@
 
         <app-work-experience></app-work-experience>
 
+        <app-contact></app-contact>
+
     </div>
     
 </template>
@@ -14,6 +16,7 @@
     
     import About from "./portfolioBody/About";
     import WorkExperience from "./portfolioBody/experience/ExperienceIndex";
+    import Contact from "./portfolioBody/Contact.vue";
 
     export default {
         
@@ -22,6 +25,8 @@
             appAbout: About,
 
             appWorkExperience: WorkExperience,
+
+            appContact: Contact,
             
         },
 
