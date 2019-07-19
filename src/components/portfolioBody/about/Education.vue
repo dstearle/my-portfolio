@@ -12,21 +12,33 @@
             <!-- Palomar College -->
             <div class="col-6">
                 
-                <div class="text-center">
+                <div class="card">
+
+                    <div class="card-header">
+
+                        <h6>Palomar Community College (2017-2019)</h6>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="text-center">
                 
-                    <!-- Palomar College Seal -->
-                    <img src="./../../../assets/images/palomarSeal.gif" class="collegeSeal">
-                
-                </div>
+                            <!-- Palomar College Seal -->
+                            <img src="./../../../assets/images/palomarSeal.gif" class="collegeSeal">
+                        
+                        </div>
 
-                <div >
+                        <div >
 
-                    <h6>Palomar Community College (2017-2019)</h6>
+                            <ul>
+                                <li>Associates: Computer Science Information Technology</li>
+                                <li>Certificate: Web Development</li>
+                            </ul>
 
-                    <ul>
-                        <li>Associates: Computer Science Information Technology</li>
-                        <li>Certificate: Web Development</li>
-                    </ul>
+                        </div>
+
+                    </div>
 
                 </div>
                 
@@ -35,21 +47,33 @@
             <!-- CSU San Bernardino -->
             <div class="col-6">
                 
-                <div class="text-center">
-                
-                    <!-- CSU San Bernardino Seal -->
-                    <img src="./../../../assets/images/csusbSeal.png" class="collegeSeal">
-                
-                </div>
+                <div class="card">
 
-                <div >
+                    <div class="card-header">
 
-                    <h6>California State University San Bernardino (2009-2013)</h6>
-    
-                    <ul>
-                        <li>Bachelors: Anthropology</li>
-                        <li>Minor: Criminal Justice</li>
-                    </ul>
+                        <h6>California State University San Bernardino (2009-2013)</h6>
+                        
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="text-center">
+                
+                            <!-- CSU San Bernardino Seal -->
+                            <img src="./../../../assets/images/csusbSeal.png" class="collegeSeal">
+                        
+                        </div>
+
+                        <div >
+            
+                            <ul>
+                                <li>Bachelors: Anthropology</li>
+                                <li>Minor: Criminal Justice</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
 
                 </div>
                 
@@ -69,7 +93,7 @@
 
 <style>
 
-    .collegeSeal {height: 250px; width: 250px;}
+    .collegeSeal {height: 175px; width: 175px;}
 
 </style>
 
