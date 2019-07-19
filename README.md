@@ -33,8 +33,13 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 <strong>To Do List:</strong>
 
 - Fix HMR error (sockjs related from previous project?)
-- Portfolio Title: Get Yesteryear font, Set up banner
-- About Section: Fix avatar, rewrite introduction
-- Portfolio Area: Work on RipeMetrics chart area, add RM site preview, create personal projects area
-- Contact Area: Maybe new contact form?
-- Parallax feature?
+- Portfolio Title: import Yesteryear font, Set up banner
+- Navbar: look into stick navbar
+- About Section: 
+    Introduction: rewrite introduction
+    Education: fix text area
+- Experience: 
+    Work Experience: work on RipeMetrics chart area, add RM site preview, style area
+    Personal Projects: create area to work in
+- Contact: import favicons for links, create contact form, style area
+- Misc: Parallax feature?
