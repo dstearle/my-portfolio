@@ -2,7 +2,7 @@
     
     <div class="container">
 
-        <h3>Work Experience</h3>
+        <h3 class="text-primary">Work Experience</h3>
                 
         <br>
     
