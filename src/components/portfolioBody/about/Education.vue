@@ -7,16 +7,16 @@
         
         <br>
         
-        <div class="row">
+        <div class="card-columns">
             
             <!-- Palomar College -->
-            <div class="col-6">
+            <div class="">
                 
                 <div class="card">
 
                     <!-- Card Title -->
                     <div class="card-header">
-                        <h6>Palomar Community College (2017-2019)</h6>
+                        <h6>Palomar College (2017-2019)</h6>
                     </div>
 
                     <div class="card-body">
@@ -28,7 +28,7 @@
 
                         <!-- Degrees -->
                         <div class="col text-center">
-                            <div>Associates: Computer Science Information Technology</div>
+                            <div>Associates: Computer Science IT</div>
                             <div>Certificate: Web Development</div>
                         </div>
 
@@ -39,13 +39,13 @@
             </div>
     
             <!-- CSU San Bernardino -->
-            <div class="col-6">
+            <div class="">
                 
                 <div class="card">
 
                     <!-- Card Title -->
                     <div class="card-header">
-                        <h6>California State University San Bernardino (2009-2013)</h6>
+                        <h6>CSU San Bernardino (2009-2013)</h6>
                     </div>
 
                     <div class="card-body">
