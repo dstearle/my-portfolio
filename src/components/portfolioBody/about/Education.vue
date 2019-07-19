@@ -12,10 +12,10 @@
             <!-- Palomar College -->
             <div class="col-6">
                 
-                <div class="text-align-center">
+                <div class="text-center">
                 
                     <!-- Palomar College Seal -->
-                    <img src="./../../../assets/images/palomarSeal.gif" class="imgClass3">
+                    <img src="./../../../assets/images/palomarSeal.gif" class="collegeSeal">
                 
                 </div>
 
@@ -35,10 +35,10 @@
             <!-- CSU San Bernardino -->
             <div class="col-6">
                 
-                <div class="text-align-center">
+                <div class="text-center">
                 
                     <!-- CSU San Bernardino Seal -->
-                    <img src="./../../../assets/images/csusbSeal.png" class="imgClass3">
+                    <img src="./../../../assets/images/csusbSeal.png" class="collegeSeal">
                 
                 </div>
 
@@ -66,3 +66,10 @@
     </div>
 
 </template>
+
+<style>
+
+    .collegeSeal {height: 250px; width: 250px;}
+
+</style>
+
