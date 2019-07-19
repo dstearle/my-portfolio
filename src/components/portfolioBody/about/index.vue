@@ -2,9 +2,9 @@
     
     <div class="container">
 
-        <div id="mainPhotoDiv">
+        <div class="text-center py-5">
             
-            <img src="./../../../assets/images/DallasProfilePic.jpg" class="imgclass1" alt="Dallas Head Shot">
+            <img src="./../../../assets/images/DallasProfilePic.jpg" style="transform: rotate(90deg)" class="imgclass1" alt="Dallas Head Shot">
             
         </div>
 
