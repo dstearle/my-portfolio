@@ -2,7 +2,7 @@
     
     <div class="container">
 
-        <div class="row">
+        <div class="">
             
             <div class="card-columns">
 
@@ -11,8 +11,8 @@
                     <div class="card-body">
 
                         <!-- Company Logo -->
-                        <div class="text-align-center">
-                            <img src="./../../../../assets/images/ripeMetricsLogo.png" class="imgClass3">
+                        <div class="text-center">
+                            <img src="./../../../../assets/images/ripeMetricsLogo.png" class="companyLogo">
                         </div>
 
                     </div>
@@ -62,6 +62,8 @@
 
 <style scoped>
 
+    .companyLogo {height: 200px; width: 400px;}
+
     @media (min-width: 576px) {
         .card-columns {
             column-count: 1;
@@ -70,7 +72,7 @@
 
     @media (min-width: 768px) {
         .card-columns {
-            column-count: 2;
+            column-count: 1;
         }
     }
 
