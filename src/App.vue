@@ -9,8 +9,6 @@
                 <app-portfolio-title></app-portfolio-title>
                 
                 <hr>
-
-                <app-header></app-header>
                 
                 <router-view></router-view>
 
@@ -26,7 +24,6 @@
 
 <script>
     
-    import Header from "./components/Header.vue";
     import PortfolioTitle from "./components/PortfolioTitle";
     import Footer from "./components/Footer.vue";
 
@@ -34,8 +31,6 @@
         
         components: {
             
-            appHeader: Header,
-
             appPortfolioTitle: PortfolioTitle,
 
             appFooter: Footer,
