@@ -27,9 +27,3 @@
     }
 
 </script>
-
-<style>
-
-    .imgClass3 {max-height: 250px; max-width: 400px;}
-
-</style>
