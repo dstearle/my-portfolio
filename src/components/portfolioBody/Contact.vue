@@ -2,7 +2,7 @@
     
     <div class="container">
 
-        <h3>CONTACT ME</h3>
+        <h3 class="text-primary">Contact</h3>
 
         <p>
             The best way to contact me is usually through my email. Feel free to check out my LinkdIn and Github pages to see more!   
