@@ -10,17 +10,30 @@
 
         <br>
 
-        <p>
-            <a id="email" class="links"><img src="images/if_mail_287559.png" class="imgClass2" alt="Email Favicon">dallas.st.earle@gmail.com</a>
-        </p>
-        
-        <p>
-            <a href="https://www.linkedin.com/in/dallas-earle-98baa87b" class="links"><img src="images/if_linkedin_287553.png" class="imgClass2" alt="LinkdIn Favicon"> Dallas Earle</a>
-        </p>
+        <div class="row">
 
-        <p>
-            <a href="https://github.com/dstearle" class="links"><img src="images/if_github_alt_177203.png" class="imgClass2" alt="Github Favicon"> dstearle</a>
-        </p>
+            <div class="col-4">
+                <button class="btn btn-primary">
+                    <img src="./../../assets/images/favEmail.png" class="imgClass2" alt="Email Favicon">
+                    <span>dallas.st.earle@gmail.com</span>
+                </button>
+            </div>
+
+            <div class="col-4">
+                <button class="btn btn-primary">
+                    <img src="./../../assets/images/favLinkedIn.png" class="imgClass2" alt="LinkdIn Favicon">
+                    <span>Dallas Earle</span>
+                </button>
+            </div>
+
+            <div class="col-4">
+                <button class="btn btn-primary">
+                    <img src="./../../assets/images/favGithub.png" class="imgClass2" alt="Github Favicon">
+                    <span>dstearle</span>
+                </button>
+            </div>
+
+        </div>
 
     </div>
 
