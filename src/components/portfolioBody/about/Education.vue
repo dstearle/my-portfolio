@@ -1,12 +1,7 @@
 <template>
     
     <div class="container">
-
-        <!-- Title -->
-        <h3 class="text-primary">Education</h3>
-        
-        <br>
-        
+                
         <div class="card-columns">
             
             <!-- Palomar College -->

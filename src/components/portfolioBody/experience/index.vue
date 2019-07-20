@@ -2,10 +2,8 @@
     
     <div class="container">
 
-        <h3 class="text-primary">Work Experience</h3>
-                
-        <br>
-    
+        <h3 class="text-primary py-4">Work Experience</h3>
+                    
         <ripe-metrics></ripe-metrics>
 
     </div>
