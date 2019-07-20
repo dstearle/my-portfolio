@@ -68,8 +68,7 @@
         <p>
             In 2017 I started taking coding classes through Palomar College to see what the world of web development and tech was like.
             I first started with a certificate program for web development and learned many of the basic skills needed to code such as basic html, css and javascript. 
-            When I had finished, I felt that this was definitely a career I could see myself thriving in so I decided to continue my education by completing an associates degree. 
-            From there I delved further into more advance classes and refined my skills in web development. 
+            When I had finished, I felt that this was definitely a career I could see myself thriving in so I decided to continue my education by completing an associates degree where I further refined my skills.
             Although I may have completed both a cerficate program and an associates, there is always more to learn!
         </p>
 

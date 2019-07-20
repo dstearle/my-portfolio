@@ -15,8 +15,8 @@
         <h3 class="text-primary py-4">Introduction</h3>
         
         <p>
-            Hey there! My name is Dallas and I am currently a Fullstack Webdeveloper interning for a start up company called RipeMetrics. I have been
-            living in San Diego since 2018 and have been working hard to learn the skills and knowledge needed to become an amazing developer. I love 
+            I am currently a Full Stack Web Developer interning for a start up company in San Diego called RipeMetrics. 
+            Currently I am searching for new opportunities for work wherever they may be, so contact me today and lets see how I can help build your project! 
         </p>
             
         <!-- Education Title -->
