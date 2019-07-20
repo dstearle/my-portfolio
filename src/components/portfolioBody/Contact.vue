@@ -2,29 +2,37 @@
     
     <div class="container">
 
-        <h3 class="text-primary">Contact</h3>
+        <h3 class="text-primary py-4">Contact</h3>
 
         <div class="row">
 
             <div class="col-md-4">
-                <button class="btn btn-primary btn-block">
+                <button class="btn btn-dark btn-block">
                     <img src="./../../assets/images/favEmail.png" class="imgClass2" alt="Email Favicon">
                     <span> dallas.st.earle@gmail.com</span>
                 </button>
             </div>
 
             <div class="col-md-4">
-                <button class="btn btn-primary btn-block">
+                <a 
+                    class="btn btn-dark btn-block" 
+                    href="https://www.linkedin.com/in/dallas-earle-98baa87b" 
+                    role="button"
+                >
                     <img src="./../../assets/images/favLinkedIn.png" class="imgClass2" alt="LinkdIn Favicon">
                     <span> Dallas Earle</span>
-                </button>
+                </a>
             </div>
 
             <div class="col-md-4">
-                <button class="btn btn-primary btn-block">
+                <a 
+                    class="btn btn-dark btn-block" 
+                    href="https://github.com/dstearle" 
+                    role="button"
+                >
                     <img src="./../../assets/images/favGithub.png" class="imgClass2" alt="Github Favicon">
                     <span> dstearle</span>
-                </button>
+                </a>
             </div>
 
         </div>
