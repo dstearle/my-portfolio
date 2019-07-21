@@ -16,7 +16,7 @@
     
     import About from "./portfolioBody/about/index.vue";
     import Experience from "./portfolioBody/experience/index";
-    import Contact from "./portfolioBody/Contact.vue";
+    import Contact from "./portfolioBody/contact/index.vue";
 
     export default {
         
