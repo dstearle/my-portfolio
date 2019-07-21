@@ -46,14 +46,23 @@
 
         </div>
 
+        <app-contact-form></app-contact-form>
+
     </div>
 
 </template>
 
 <script>
 
+    import ContactForm from "./ContactForm.vue"
+
     export default {
 
+        components: {
+            
+            appContactForm: ContactForm,
+            
+        },
         mounted() {
             // For contact button popovers
             $(function() {
