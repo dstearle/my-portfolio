@@ -2,29 +2,20 @@
     
     <div class="container">
 
-        <div class="footer">
+        <footer class="py-3">
 
-              <footer>
+            <div class="text-center">
+                
+                <!-- Copyright -->
+                Dallas Earle &copy; 
+                
+                <!-- Current Year -->
+                <span>{{ new Date().getFullYear() }}</span>
+                
+            </div>
 
-                  <p> Dallas Earle &copy; 2019</p>
-
-            </footer>
-
-        </div>
+        </footer>
 
     </div>
     
 </template>
-
-<style>
-
-    .footer {
-        background-color: #262626; 
-        bottom: 0px; color: white; 
-        font-family: Yesteryear; 
-        padding: 5px 0px 5px 0px; 
-        text-align: center;
-    }
-
-
-</style>
