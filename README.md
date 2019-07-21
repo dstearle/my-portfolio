@@ -35,12 +35,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Fix HMR error (sockjs related from previous project?)
 - Portfolio Title: import Yesteryear font, set up banner
 - Navbar: look into sticky navbar, rename Header component to navbar
-- About Section: 
-    Introduction: rewrite introduction
-    Education: fix text area
+- About Section: add skills area?
 - Experience Sectiom: 
     Work Experience: work on RM chart area, add RM site preview, fix RM logo card
     Personal Projects: create area to work in
-- Contact Section: look up new favicons for links, create contact form,
-- Footer: import Yesteryear font, function for current year, style area
+- Contact Section: look up new favicons for links, get contact form working,
+- Footer: import Yesteryear font, style area
 - Misc: parallax feature for navbar, custom styled cards, change primary color
