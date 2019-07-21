@@ -5,6 +5,8 @@
         <div class="row">
            
             <div>
+
+                <app-navbar></app-navbar>
                
                 <app-portfolio-title></app-portfolio-title>
                 
@@ -24,6 +26,7 @@
 
 <script>
     
+    import Navbar from "./components/Navbar.vue";
     import PortfolioTitle from "./components/PortfolioTitle";
     import Footer from "./components/Footer.vue";
 
@@ -31,8 +34,8 @@
         
         components: {
             
+            appNavbar: Navbar,
             appPortfolioTitle: PortfolioTitle,
-
             appFooter: Footer,
             
         },
