@@ -13,7 +13,7 @@
                     data-toggle="popover" 
                     data-placement="top"
                     data-trigger="hover"
-                    data-content="YABA DABBA DOO!"
+                    data-content="Click here to copy my email to your clipboard"
                 >
                     <img src="./../../../assets/images/favEmail.png" class="contactFav" alt="Email Favicon">
                     <span> dallas.st.earle@gmail.com</span>
@@ -21,7 +21,13 @@
             </div>
 
             <!-- LinkedIn -->
-            <div class="contactButton col-md-12 col-lg-4">
+            <div 
+                class="contactButton col-md-12 col-lg-4"
+                data-toggle="popover" 
+                data-placement="top"
+                data-trigger="hover"
+                data-content="Click here to visit my LinkedIn profile"
+            >
                 <a 
                     class="btn btn-dark btn-block" 
                     href="https://www.linkedin.com/in/dallas-earle-98baa87b" 
@@ -33,7 +39,13 @@
             </div>
 
             <!-- Github -->
-            <div class="contactButton col-md-12 col-lg-4">
+            <div 
+                class="contactButton col-md-12 col-lg-4"
+                data-toggle="popover" 
+                data-placement="top"
+                data-trigger="hover"
+                data-content="Click here to visit my Github profile"
+            >
                 <a 
                     class="btn btn-dark btn-block" 
                     href="https://github.com/dstearle" 
