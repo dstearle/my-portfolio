@@ -32,7 +32,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 <strong>To Do List:</strong>
 
-- Fix HMR error (sockjs related from previous project?)
+- Fix HMR error (sockjs related from previous project?), fix popover depedency error
 - Portfolio Title: import Yesteryear font, set up banner
 - Navbar: add functionality, style area
 - About Section: add skills area?
