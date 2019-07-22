@@ -1,7 +1,9 @@
-import Vue from 'vue'
-import App from './App.vue'
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap-vue/dist/bootstrap-vue.css";
+import Vue from 'vue';
+import App from './App.vue';
+import 'popper.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import jQuery from 'jquery';
 import VueRouter from 'vue-router';
 
 import { routes } from './routes';
@@ -18,6 +20,10 @@ const router = new VueRouter ({
   routes: routes
   
 });
+
+//global declaration of jquery
+global.jQuery = jQuery
+global.$ = jQuery
 
 new Vue({
   
