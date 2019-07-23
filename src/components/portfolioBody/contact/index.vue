@@ -91,6 +91,13 @@
 
     .contactFav {max-height: 1.5rem; max-width: 1.5rem;}
 
+    @media (max-width: 575px) {
+        .contactButton {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    }
+
     @media (min-width: 576px) {
         .contactButton {
             padding-top: 5px;
