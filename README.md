@@ -34,11 +34,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 - Fix HMR error (sockjs related from previous project?), fix popover depedency error
 - Portfolio Title: import Yesteryear font, set up banner
-- Navbar: add functionality, style area
+- Navbar: add scrollspy and smooth scroll, style area
 - About Section: add skills area?
-- Experience Sectiom: 
-    Work Experience: work on RM chart area, add RM site preview, fix RM logo card
-    Personal Projects: create area to work in
+- Experience Section: 
+    - Work Experience: work on RM chart area, add RM site preview
+    - Personal Projects: create area to work in
 - Contact Section: add functionality, look up new favicons for links
 - Footer: import Yesteryear fon
-- Misc: parallax feature for navbar, custom styled cards, sass colors?
+- Misc: custom styled cards, sass colors?
