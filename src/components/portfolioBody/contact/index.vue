@@ -1,8 +1,8 @@
 <template>
     
-    <div class="container">
+    <div id="contact" class="container pt-5">
 
-        <h3 class="text-primary py-4">Contact</h3>
+        <h3 class="text-primary pt-5 pb-4">Contact</h3>
 
         <div class="row">
 

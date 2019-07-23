@@ -48,7 +48,7 @@
         <!-- Company Info -->
         <div>
 
-            <h5>Who Is RipeMetrics?</h5>
+            <h5>Who Are RipeMetrics?</h5>
 
             <p>
                 "We’re a Canopy San Diego company and our mission is to elevate Customer Experience for the cannabis industry. We provide business intelligence tools helping cannabis companies capture the voice of customer feedback to make better-informed decisions, increase loyalty and cut marketing waste." - Excerpt from RipeMetrics

@@ -1,6 +1,6 @@
 <template>
     
-    <div class="container">
+    <div class="container py-5">
 
         <div class="nameBanner">
 
@@ -9,6 +9,17 @@
             <p>WEB DEVELOPER</p>
 
         </div>
+
+        <hr>
+
+        <div class="text-center py-5">
+            
+            <!-- Main Portfolio image -->
+            <img src="./../assets/images/DallasProfilePic.jpg" style="transform: rotate(90deg)" class="imgclass1" alt="Dallas Head Shot">
+            
+        </div>
+
+        <br><br><br>
 
     </div>
     

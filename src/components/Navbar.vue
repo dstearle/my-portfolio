@@ -7,22 +7,22 @@
 
             <!-- Home -->
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#home">Home</a>
             </li>
 
             <!-- About -->
             <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
             </li>
 
             <!-- Portfolio -->
             <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
 
             <!-- Contact -->
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
             </li>
             
         </ul>
@@ -31,7 +31,15 @@
 
             <!-- Vue Logo -->
             <li class="nav-item">
-                <div class="nav-link"><img class="vueLogo" src="./../assets/images/logo.png" alt="Vue.js Logo"></div>
+                <div 
+                    class="nav-link"
+                    data-toggle="popover" 
+                    data-placement="right"
+                    data-trigger="hover"
+                    data-content="I made this site using Vue.js!"
+                >
+                    <img class="vueLogo" src="./../assets/images/logo.png" alt="Vue.js Logo">
+                </div>
             </li>
 
         </ul>
@@ -39,6 +47,21 @@
     </nav>
     
 </template>
+
+<script>
+
+    export default {
+
+        mounted() {
+            // For contact button popovers
+            $(function() {
+              $('[data-toggle="popover"]').popover();
+            });
+        },
+        
+    }
+
+</script>
 
 <style scoped>
 
