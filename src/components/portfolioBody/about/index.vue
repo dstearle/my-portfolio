@@ -15,6 +15,11 @@
 
         <app-education></app-education>
 
+        <!-- Skills & Tools Title -->
+        <h3 class="text-primary py-4">Skills & Tools</h3>
+
+        <app-skills-tools></app-skills-tools>
+
     </div>
     
 </template>
@@ -22,12 +27,15 @@
 <script>
 
     import Education from "./Education.vue";
+    import SkillsTools from "./SkillsTools.vue";
 
     export default {
 
         components: {
             
             appEducation: Education,
+
+            appSkillsTools: SkillsTools,
             
         },
         
