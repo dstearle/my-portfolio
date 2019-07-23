@@ -1,18 +1,9 @@
 <template>
     
-    <div class="container">
-
-        <div class="text-center py-5">
-            
-            <!-- Main Portfolio image -->
-            <img src="./../../../assets/images/DallasProfilePic.jpg" style="transform: rotate(90deg)" class="imgclass1" alt="Dallas Head Shot">
-            
-        </div>
-
-        <br><br><br>
+    <div id="about" class="container py-5">
 
         <!-- Introduction Title -->
-        <h3 class="text-primary py-4">Introduction</h3>
+        <h3 class="text-primary pt-5 pb-4">Introduction</h3>
         
         <p>
             I am currently a Full Stack Web Developer interning for a start up company in San Diego called RipeMetrics. 

@@ -1,10 +1,12 @@
 <template>
     
-    <div class="container">
+    <div>
 
         <app-about></app-about>
 
         <app-experience></app-experience>
+
+        <br><br><br>
 
         <app-contact></app-contact>
 

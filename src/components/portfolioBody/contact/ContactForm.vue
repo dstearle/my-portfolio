@@ -25,7 +25,9 @@
                             <textarea id="message" placeholder="Interested in contacting me? Write me a message here..." rows="3" class="form-control"></textarea>
                         </div>
 
-                        <button type="submit" class="btn btn-dark btn-block">Send</button>
+                        <div class="pt-3">
+                            <button type="submit" class="btn btn-dark btn-block">Send</button>
+                        </div>
 
                     </form>
 
