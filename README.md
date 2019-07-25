@@ -41,4 +41,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     - Personal Projects: create area to work in
 - Contact Section: add functionality for the form, look up new favicons for links
 - Footer: import Yesteryear font
-- Misc: custom styled cards, sass colors?
+- Misc: hide #breadcrumbs in address bar, custom styled cards, sass colors?
