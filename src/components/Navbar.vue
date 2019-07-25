@@ -6,7 +6,7 @@
         <ul class="navbar-nav mr-auto mt-2">
 
             <!-- Home -->
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="#home">Home</a>
             </li>
 
