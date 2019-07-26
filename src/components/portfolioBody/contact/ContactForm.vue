@@ -17,6 +17,8 @@
                                 id="name" 
                                 placeholder="Enter Name" 
                                 class="form-control form-control-lg"
+                                :class="{'is-invalid': $v.name.$error}"
+                                @input="$v.name.$touch()"
                                 v-model="name"
                             >
                         </div>
@@ -63,21 +65,25 @@
 
 <script>
 
-    import { required, email } from 'vuelidate/lib/validators'
+    import { required, email, minLength } from 'vuelidate/lib/validators'
 
     export default {
 
         data() {
             return {
-                email: '',
                 name: '',
+                email: '',
                 message: '',
             }
         },
 
-        // Special validations tool imported from Vuelidate
+        // Form validation tool imported from Vuelidate
         validations: {
 
+            name: {
+                required,
+                minLength: minLength(4)
+            },
             email: {
                 required,
                 email
