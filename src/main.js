@@ -5,10 +5,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import jQuery from 'jquery';
 import VueRouter from 'vue-router';
+import Vuelidate from 'vuelidate';
 
 import { routes } from './routes';
 
 Vue.use(VueRouter);
+Vue.use(Vuelidate);
 
 Vue.config.productionTip = false
 

@@ -17,19 +17,20 @@
                                 id="name" 
                                 placeholder="Enter Name" 
                                 class="form-control form-control-lg"
-                                v-bind:class="isValid"
-                                v-model="user.name"
+                                v-model="name"
                             >
                         </div>
 
                         <!-- Email Input -->
-                        <div class="form-group">
+                        <div class="form-group" >
                             <input 
                                 type="text" 
                                 id="email" 
                                 placeholder="Enter Email" 
                                 class="form-control form-control-lg"
-                                v-model="user.email"
+                                :class="{'is-invalid': $v.email.$error}"
+                                @input="$v.email.$touch()"
+                                v-model="email"
                             >
                         </div>
 
@@ -40,7 +41,7 @@
                                 placeholder="Interested in contacting me? Write me a message here..." 
                                 rows="3" 
                                 class="form-control"
-                                v-model="user.message"
+                                v-model="message"
                             ></textarea>
                         </div>
 
@@ -62,26 +63,26 @@
 
 <script>
 
+    import { required, email } from 'vuelidate/lib/validators'
+
     export default {
 
         data() {
             return {
-                user: {
-                    email: '',
-                    name: '',
-                    message: '',
-                    valid: false,
-                }
+                email: '',
+                name: '',
+                message: '',
             }
         },
 
-        computed: {
-            isValid: function() {
-                
-                return this.user.valid ? 'is-valid' : 'is-invalid'
-                return console.log(this.user.valid) 
-                
+        // Special validations tool imported from Vuelidate
+        validations: {
+
+            email: {
+                required,
+                email
             }
+
         },
 
         methods: {
@@ -93,3 +94,9 @@
     }
 
 </script>
+
+<style scoped>
+
+.invalid input{color:red}
+</style>
+
