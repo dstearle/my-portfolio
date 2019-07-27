@@ -17,7 +17,7 @@
                                 id="name" 
                                 placeholder="Enter Name" 
                                 class="form-control form-control-lg"
-                                :class="{'is-invalid': $v.name.$error}"
+                                :class="{'is-invalid': $v.name.$error, 'is-valid': !$v.name.$error && $v.name.$dirty}"
                                 @input="$v.name.$touch()"
                                 v-model="name"
                             >
