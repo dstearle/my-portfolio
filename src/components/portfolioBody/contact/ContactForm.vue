@@ -30,7 +30,7 @@
                                 id="email" 
                                 placeholder="Enter Email" 
                                 class="form-control form-control-lg"
-                                :class="{'is-invalid': $v.email.$error}"
+                                :class="{'is-invalid': $v.email.$error, 'is-valid': !$v.email.$error && $v.email.$dirty}"
                                 @input="$v.email.$touch()"
                                 v-model="email"
                             >
@@ -106,9 +106,4 @@
     }
 
 </script>
-
-<style scoped>
-
-.invalid input{color:red}
-</style>
 
