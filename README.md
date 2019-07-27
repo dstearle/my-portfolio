@@ -39,6 +39,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Experience Section: 
     - Work Experience: work on RM chart area, add RM site preview
     - Personal Projects: create area to work in
-- Contact Section: add functionality for the form, look up new favicons for links
+- Contact Section: complete logic for the submit button, look up new favicons for links
 - Footer: import Yesteryear font
 - Misc: hide #breadcrumbs in address bar, custom styled cards, sass colors?
