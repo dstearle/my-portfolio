@@ -37,11 +37,11 @@
                         </div>
 
                         <!-- Text Area -->
-                        <div class="form-group">
+                        <div class="form-group pt-3">
                             <textarea 
                                 id="message" 
                                 placeholder="Interested in contacting me? Write me a message here..." 
-                                rows="3" 
+                                rows="5" 
                                 class="form-control"
                                 :class="{'is-invalid': $v.message.$error, 'is-valid': !$v.message.$error && $v.message.$dirty}"
                                 @input="$v.message.$touch()"
@@ -49,8 +49,11 @@
                             ></textarea>
                         </div>
 
+                        <!-- Submit Button -->
                         <div class="pt-3">
-                            <button type="submit" class="btn btn-dark btn-block">Send</button>
+                            <button type="submit" class="btn btn-dark btn-block">
+                                {{ submitButton }}
+                            </button>
                         </div>
 
                     </form>
@@ -76,6 +79,8 @@
                 name: '',
                 email: '',
                 message: '',
+                submitButton: 'Send',
+                submitStatus: null
             }
         },
 
@@ -98,12 +103,26 @@
         },
 
         methods: {
-            handleSubmit() {
-            // Send data to the server or update your stores and such.
-            }
+            // Logic for submit button
+            submit() {
+                this.$v.$touch()
+                // Checks for errors in the fields
+                if (this.$v.$invalid) {
+                    this.submitButton = 'Please fill the form correctly'
+                }
+                // Submits the message if all fields are valid
+                else {
+                    // Indicates pending message
+                    this.submitButton = 'Sending...'
+                    setTimeout(() => {
+                    // Confirms message was sent after timeout
+                    this.submitButton = 'Thanks for your submission!'
+                    }, 500)
+                }
+            },
+
         }
 
     }
 
 </script>
-
