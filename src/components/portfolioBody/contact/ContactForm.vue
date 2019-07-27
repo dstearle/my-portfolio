@@ -43,7 +43,7 @@
                                 placeholder="Interested in contacting me? Write me a message here..." 
                                 rows="3" 
                                 class="form-control"
-                                :class="{'is-invalid': $v.message.$error}"
+                                :class="{'is-invalid': $v.message.$error, 'is-valid': !$v.message.$error && $v.message.$dirty}"
                                 @input="$v.message.$touch()"
                                 v-model="message"
                             ></textarea>
