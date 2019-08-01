@@ -51,7 +51,12 @@
 
                         <!-- Submit Button -->
                         <div class="pt-3">
-                            <button type="submit" class="btn btn-dark btn-block" @click="submitMessage">
+                            <button 
+                                type="submit" 
+                                class="btn btn-dark btn-block"
+                                :disabled="submitStatus"
+                                @click="submitMessage"
+                            >
                                 {{ submitButton }}
                             </button>
                         </div>
@@ -114,6 +119,8 @@
                 else {
                     // Indicates pending message
                     this.submitButton = 'Sending Message...'
+                    // Sets the submit button to disabled
+                    this.submitStatus = true
                     setTimeout(() => {
                     // Confirms message was sent after timeout
                     this.submitButton = 'Message Sent!'
