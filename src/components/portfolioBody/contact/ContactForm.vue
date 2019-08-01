@@ -37,12 +37,12 @@
                         </div>
 
                         <!-- Text Area -->
-                        <div class="form-group pt-3">
+                        <div class="form-group pt-2">
                             <textarea 
                                 id="message" 
                                 placeholder="Interested in contacting me? Write me a message here..." 
                                 rows="5" 
-                                class="form-control"
+                                class="form-control form-control-lg"
                                 :class="{'is-invalid': $v.message.$error, 'is-valid': !$v.message.$error && $v.message.$dirty}"
                                 @input="$v.message.$touch()"
                                 v-model="message"
@@ -51,7 +51,7 @@
 
                         <!-- Submit Button -->
                         <div class="pt-3">
-                            <button type="submit" class="btn btn-dark btn-block">
+                            <button type="submit" class="btn btn-dark btn-block" @click="submitMessage">
                                 {{ submitButton }}
                             </button>
                         </div>
@@ -104,7 +104,7 @@
 
         methods: {
             // Logic for submit button
-            submit() {
+            submitMessage() {
                 this.$v.$touch()
                 // Checks for errors in the fields
                 if (this.$v.$invalid) {
@@ -113,10 +113,10 @@
                 // Submits the message if all fields are valid
                 else {
                     // Indicates pending message
-                    this.submitButton = 'Sending...'
+                    this.submitButton = 'Sending Message...'
                     setTimeout(() => {
                     // Confirms message was sent after timeout
-                    this.submitButton = 'Thanks for your submission!'
+                    this.submitButton = 'Message Sent!'
                     }, 500)
                 }
             },
