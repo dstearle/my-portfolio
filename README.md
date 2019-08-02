@@ -42,3 +42,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Contact Section: fix logic for "send" on submit button, look up new favicons for links
 - Footer: import Yesteryear font
 - Misc: hide #breadcrumbs in address bar, custom styled cards, sass colors?
+
+<br>
+
+<strong>Dependecies:</strong>
+
+- vuelidate: https://vuelidate.netlify.com/#sub-package-content
