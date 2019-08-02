@@ -5,7 +5,7 @@
         <div class="card-columns">
 
             <!-- Company Logo Card -->
-            <div class="card job-card">
+            <div class="card company-card">
             
                 <div class="card-body">
 
@@ -61,7 +61,7 @@
 
         </div>
 
-        <!-- ??? -->
+        <!-- Accomplishments -->
         <div>
 
             <h5>What Did I Accomplish There?</h5>
@@ -84,6 +84,12 @@
     .companyLogo {height: 200px; width: 400px;}
 
     .job-card {min-height: 280px;}
+
+    .company-card {min-height: 280px;}
+    .company-card:hover {
+        background-color: red;
+        opacity: 0.6;
+    }
 
     @media (min-width: 576px) {
         .card-columns {
