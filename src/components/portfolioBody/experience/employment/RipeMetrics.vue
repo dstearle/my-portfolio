@@ -14,7 +14,7 @@
                         <img src="./../../../../assets/images/ripeMetricsLogo.png" class="companyLogo">
                     </div>
 
-                    <!-- Stretched Hyperlink To RM Website -->
+                    <!-- Stretched Hyperlink To Company Website -->
                     <a href="https://ripemetrics.com/" class="stretched-link"></a>
 
                 </div>
@@ -54,7 +54,9 @@
             <h5>Who Are RipeMetrics?</h5>
 
             <p>
-                "We’re a Canopy San Diego company and our mission is to elevate Customer Experience for the cannabis industry. We provide business intelligence tools helping cannabis companies capture the voice of customer feedback to make better-informed decisions, increase loyalty and cut marketing waste." - Excerpt from RipeMetrics
+                "We’re a Canopy San Diego company and our mission is to elevate Customer Experience for the cannabis industry. 
+                We provide business intelligence tools helping cannabis companies capture the voice of customer feedback to make better-informed decisions, increase loyalty and cut marketing waste." 
+                - Excerpt from RipeMetrics
             </p>
 
         </div>
@@ -65,7 +67,10 @@
             <h5>What Did I Accomplish There?</h5>
 
             <p>
-                As an intern for RipeMetrics I was given many resources and experienced guidance on how a developer operates in a working environment. On a day to day basis I worked in an linux environment for version control (git) using my own isolated branch to submit changes to the master repo for review. When I first started working at RipeMetrics we did not have a cloud9 so we had to setup our own work environments on our laptops. This was a learning experience for me in that I was able to learn how to do this complicated setup on my own for future purposes but also see what it takes to create a developer's environment from scratch. Eventually we did switch over to cloud9 and ever since I have been working in that environment. The API I worked on for RipeMetrics used Vue.js and Bootstrap for the frontend and Laravel for the backend. Being brought in as a full-stack intern I had the unique opportunity of being the first intern to ever work in the backend.
+                As an intern at RipeMetrics I worked with a team of web developers and designers to help build and redesign the company's API.
+                Working locally and in sandbox environments like AWS, I refactored parts of existing code and made new features in both the front-end and back-end.
+                My biggest contribution was reworking a major part of the main dashboard in which I made a styled chart that represents a company's NPS score over different periods
+                of time and gauges that represent product and order scores.
             </p>
 
         </div>
