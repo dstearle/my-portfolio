@@ -9,14 +9,13 @@
             
                 <div class="card-body">
 
-                    <a href="#" class="stretched-link">
+                    <!-- Company Logo -->
+                    <div class="text-center">
+                        <img src="./../../../../assets/images/ripeMetricsLogo.png" class="companyLogo">
+                    </div>
 
-                        <!-- Company Logo -->
-                        <div class="text-center">
-                            <img src="./../../../../assets/images/ripeMetricsLogo.png" class="companyLogo">
-                        </div>
-
-                    </a>
+                    <!-- Stretched Hyperlink To RM Website -->
+                    <a href="https://ripemetrics.com/" class="stretched-link"></a>
 
                 </div>
                 
