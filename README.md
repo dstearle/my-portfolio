@@ -47,4 +47,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 <strong>Dependecies:</strong>
 
+- JQuery
+- popper.js
 - vuelidate: https://vuelidate.netlify.com/#sub-package-content
