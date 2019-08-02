@@ -9,10 +9,14 @@
             
                 <div class="card-body">
 
-                    <!-- Company Logo -->
-                    <div class="text-center">
-                        <img src="./../../../../assets/images/ripeMetricsLogo.png" class="companyLogo">
-                    </div>
+                    <a href="#" class="stretched-link">
+
+                        <!-- Company Logo -->
+                        <div class="text-center">
+                            <img src="./../../../../assets/images/ripeMetricsLogo.png" class="companyLogo">
+                        </div>
+
+                    </a>
 
                 </div>
                 

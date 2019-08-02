@@ -113,6 +113,7 @@
                 this.$v.$touch()
                 // Checks for errors in the fields
                 if (this.$v.$invalid) {
+                    // Informs user to fix field errors
                     this.submitButton = 'Please fill the form correctly'
                 }
                 // Submits the message if all fields are valid
@@ -128,7 +129,7 @@
                 }
             },
 
-        }
+        },
 
     }
 
