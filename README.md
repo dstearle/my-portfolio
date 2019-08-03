@@ -37,7 +37,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Navbar: add smooth scroll, style area
 - About Section: style area
 - Experience Section: 
-    - Work Experience: work on RM chart area, add RM site preview
+    - Work Experience: work on RM chart area, make RM site preview better
     - Personal Projects: create area to work in
 - Contact Section: fix logic for "send" on submit button, look up new favicons for links
 - Footer: import Yesteryear font
