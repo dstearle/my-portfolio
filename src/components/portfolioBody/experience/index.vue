@@ -8,7 +8,15 @@
 
         <h3 class="text-primary pt-5 pb-4">Personal Projects</h3>
 
-        <laravel-qa></laravel-qa>
+        <div class="card-deck">
+
+            <laravel-qa></laravel-qa>
+
+            <laravel-qa></laravel-qa>
+
+            <laravel-qa></laravel-qa>
+            
+        </div>
 
     </div>
     
