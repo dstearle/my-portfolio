@@ -11,7 +11,7 @@
 
                     <!-- Company Logo -->
                     <div class="text-center">
-                        <img src="./../../../../assets/images/ripeMetricsLogo.png" class="companyLogo">
+                        <img src="./../../../../assets/images/ripeMetricsLogo.png" class="company-logo">
                     </div>
 
                     <!-- Stretched Hyperlink To Company Website -->
@@ -81,7 +81,7 @@
 
 <style scoped>
 
-    .companyLogo {height: 200px; width: 400px;}
+    .company-logo {height: 200px; width: 400px;}
 
     .job-card {min-height: 280px;}
 
