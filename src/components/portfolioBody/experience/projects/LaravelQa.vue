@@ -16,11 +16,15 @@
                     Users can also upvote questions and answers or favorite answers for reference.
                 </p>
 
-                <strong>
+                <div class="row" style="padding:0px 20px 0px 20px">
 
-                    <a href="https://github.com/dstearle/laravel-qa" class="card-text">github repo</a>
+                    <strong class="ml-auto">
 
-                </strong>
+                        <a href="https://github.com/dstearle/laravel-qa">github repo</a>
+
+                    </strong>
+
+                </div>
                 
             </div>
 
