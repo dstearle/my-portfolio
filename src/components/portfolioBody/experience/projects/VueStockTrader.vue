@@ -8,13 +8,13 @@
         <div class="card-body">
 
             <!-- Project Title -->
-            <h5 class="card-title">Laravel-Qa</h5>
+            <h5 class="card-title">Vue-Stock-Trader</h5>
 
             <!-- Project Description -->
             <p class="card-text">
-                I made this project using Laravel and PHP to demonstrate the concept of the MVC (Model View Controller).
-                It is a basic question and answer forum where users can login, ask questions and give answers to questions.
-                Users can also upvote questions and answers or favorite them for reference.
+                In this project you can buy or sell stock of different items over a period of time. 
+                Starting with a set amount of funds you can spend as much or as little as you like then end the day.
+                Each day the items will have different values so you can wait to buy low then sell when the market price is high to make a profit.
             </p>
 
             <!-- Card Footer -->
@@ -23,7 +23,7 @@
                 <strong class="ml-auto">
 
                     <!-- Github Repo -->
-                    <a href="https://github.com/dstearle/laravel-qa">github repo</a>
+                    <a href="https://github.com/dstearle/vue-stock-trader">github repo</a>
 
                 </strong>
 
