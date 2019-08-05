@@ -3,7 +3,7 @@
     <div class="card project-card">
 
         <!-- Project Image -->
-        <img src="./../../../../assets/images/laravelQaImg.png" class="card-img-top" alt="Laravel Project">
+        <img src="./../../../../assets/images/vueStockTrader.png" class="card-img-top" alt="Stock Trader Project">
 
         <div class="card-body">
 
