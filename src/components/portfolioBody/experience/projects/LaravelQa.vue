@@ -2,16 +2,16 @@
     
     <div class="card project-card">
 
-        <img src="./../../../../assets/images/ripeMetricsLogo.png" class="card-img-top" alt="...">
+        <img src="./../../../../assets/images/laravelQaImg.png" class="card-img-top" alt="Laravel Project">
 
         <div class="card-body">
 
             <h5 class="card-title">Laravel-Qa</h5>
 
             <p class="card-text">
-                I made this project using Laravel and php to demonstrate the concept of the MVC (Model View Controller).
+                I made this project using Laravel and PHP to demonstrate the concept of the MVC (Model View Controller).
                 It is a basic question and answer forum where users can login, ask questions and give answers to questions.
-                Users can also upvote questions and answers or favorite answers for reference.
+                Users can also upvote questions and answers or favorite them for reference.
             </p>
 
             <div class="row" style="padding:0px 20px 0px 20px">
