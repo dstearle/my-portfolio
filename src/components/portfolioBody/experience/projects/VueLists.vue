@@ -1,0 +1,36 @@
+<template>
+    
+    <div class="card project-card">
+
+        <!-- Project Image -->
+        <img src="./../../../../assets/images/vueListsImg.png" class="card-img-top" alt="Vue Lists Project">
+
+        <div class="card-body">
+
+            <!-- Project Title -->
+            <h5 class="card-title">Vue-Lists</h5>
+
+            <!-- Project Description -->
+            <p class="card-text">
+                This project contains different types of lists that can be used for Vue.js projects.
+                Over time I will add more types of lists that can be used for my own projects or as an example for others.
+                I also give plenty of comments throughout the code so that anyone interested can learn how I accomplished certain features.
+            </p>
+
+            <!-- Card Footer -->
+            <div class="row" style="padding:0px 20px 0px 20px">
+
+                <strong class="ml-auto">
+
+                    <!-- Github Repo -->
+                    <a href="https://github.com/dstearle/vue-list-rendering">github repo</a>
+
+                </strong>
+
+            </div>
+            
+        </div>
+
+    </div>
+
+</template>
