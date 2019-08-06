@@ -67,11 +67,19 @@
         .card-columns {
             column-count: 3;
         }
+
+        .card-img-top {
+            height: 215px;
+        }
     }
 
     @media (min-width: 1200px) {
         .card-columns {
             column-count: 3;
+        }
+
+        .card-img-top {
+            height: 215px;
         }
     }
 
