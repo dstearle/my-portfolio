@@ -35,9 +35,3 @@
 
 </template>
 
-<style scoped>
-
-    .project-card {min-height: 280px;}
-    
-</style>
-
