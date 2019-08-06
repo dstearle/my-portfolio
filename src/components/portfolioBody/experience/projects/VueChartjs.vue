@@ -12,9 +12,9 @@
 
             <!-- Project Description -->
             <p class="card-text">
-                I made this project using Laravel and PHP to demonstrate the concept of the MVC (Model View Controller).
-                It is a basic question and answer forum where users can login, ask questions and give answers to questions.
-                Users can also upvote questions and answers or favorite them for reference.
+                This is just a set of different charts in different styles using the Chart.js package.
+                As I learn how to use more features of the package I update this project so that I or others can use this tool better in Vue.js projects.
+                I also give plenty of comments throughout the code so that others can learn how I accomplished certain features.
             </p>
 
             <!-- Card Footer -->
@@ -23,7 +23,7 @@
                 <strong class="ml-auto">
 
                     <!-- Github Repo -->
-                    <a href="https://github.com/dstearle/laravel-qa">github repo</a>
+                    <a href="https://github.com/dstearle/vue-chartjs-gallery">github repo</a>
 
                 </strong>
 
