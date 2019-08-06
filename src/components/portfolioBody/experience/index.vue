@@ -14,7 +14,7 @@
 
             <vue-stock-trader></vue-stock-trader>
 
-            <laravel-qa></laravel-qa>
+            <vue-chartjs></vue-chartjs>
             
         </div>
 
@@ -27,6 +27,7 @@
     import RipeMetrics from "./employment/RipeMetrics.vue";
     import LaravelQa from "./projects/LaravelQa.vue";
     import VueStockTrader from "./projects/VueStockTrader.vue";
+    import VueChartjs from "./projects/VueChartjs";
     
     export default {
 
@@ -37,6 +38,8 @@
             laravelQa: LaravelQa,
 
             vueStockTrader: VueStockTrader,
+
+            vueChartjs: VueChartjs,
             
         },
         
