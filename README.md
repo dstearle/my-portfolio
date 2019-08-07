@@ -38,7 +38,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - About Section: style area
 - Experience Section: 
     - Work Experience: work on RM chart area, make RM site preview better
-    - Personal Projects: give laravel-qa image, add vue-stock-trader area, add vue-chartjs-gallery area, style area
+    - Personal Projects: fix card footers, add demo links
 - Contact Section: look up new favicons for links
 - Footer: import Yesteryear font
 - Misc: hide #breadcrumbs in address bar, custom styled cards, sass colors?
