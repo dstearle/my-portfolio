@@ -61,11 +61,19 @@
         .card-columns {
             column-count: 1;
         }
+
+        .card-img-top {
+            height: 400px;
+        }
     }
 
     @media (min-width: 768px) {
         .card-columns {
             column-count: 1;
+        }
+
+        .card-img-top {
+            height: 450px;
         }
     }
 
