@@ -2,12 +2,15 @@
     
     <div id="portfolio" class="container py-5">
 
+        <!-- Section Title -->
         <h3 class="text-primary pt-5 pb-4">Work Experience</h3>
                     
         <ripe-metrics></ripe-metrics>
 
+        <!-- Section Title -->
         <h3 class="text-primary pt-5 pb-4">Personal Projects</h3>
 
+        <!-- Personal Projects -->
         <div class="card-columns">
 
             <laravel-qa></laravel-qa>
