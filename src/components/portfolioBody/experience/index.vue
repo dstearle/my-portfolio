@@ -11,7 +11,7 @@
         <h3 class="text-primary pt-5 pb-4">Personal Projects</h3>
 
         <!-- Personal Projects -->
-        <div class="card-columns">
+        <div class="container card-columns">
 
             <laravel-qa></laravel-qa>
 
