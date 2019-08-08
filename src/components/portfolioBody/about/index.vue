@@ -5,7 +5,7 @@
         <!-- Introduction Title -->
         <h3 class="text-primary pt-5 pb-4">Introduction</h3>
         
-        <p>
+        <p class="container">
             I am currently a Full Stack Web Developer interning for a start up company in San Diego called RipeMetrics. 
             Currently I am searching for new opportunities for work wherever they may be, so contact me today and lets see how I can help build your project! 
         </p>
