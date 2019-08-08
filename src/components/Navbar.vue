@@ -38,7 +38,7 @@
                     data-trigger="hover"
                     data-content="I made this site using Vue.js!"
                 >
-                    <img class="vueLogo" src="./../assets/images/logo.png" alt="Vue.js Logo">
+                    <img class="vueLogo" src="./../assets/favicons/logo.png" alt="Vue.js Logo">
                 </div>
             </li>
 
