@@ -17,8 +17,17 @@
                 I also give plenty of comments throughout the code so that anyone interested can learn how I accomplished certain features.
             </p>
 
+            <br>
+
             <!-- Card Footer -->
             <div class="row" style="padding:0px 20px 0px 20px">
+
+                <strong class="mr-auto">
+
+                    <!-- Live Demo -->
+                    <a href="https://github.com/dstearle/laravel-qa">live demo</a>
+
+                </strong>
 
                 <strong class="ml-auto">
 

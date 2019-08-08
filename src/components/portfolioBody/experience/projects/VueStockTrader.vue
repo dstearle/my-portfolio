@@ -17,8 +17,17 @@
                 Each day the items will have different values so you can wait to buy low then sell when the market price is high to make a profit.
             </p>
 
+            <br>
+
             <!-- Card Footer -->
             <div class="row" style="padding:0px 20px 0px 20px">
+
+                <strong class="mr-auto">
+
+                    <!-- Live Demo -->
+                    <a href="https://github.com/dstearle/laravel-qa">live demo</a>
+
+                </strong>
 
                 <strong class="ml-auto">
 
