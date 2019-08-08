@@ -41,7 +41,7 @@
                             <textarea 
                                 id="message" 
                                 placeholder="Interested in contacting me? Write me a message here..." 
-                                rows="5" 
+                                rows="8" 
                                 class="form-control form-control-lg"
                                 :class="{'is-invalid': $v.message.$error, 'is-valid': !$v.message.$error && $v.message.$dirty}"
                                 @input="$v.message.$touch()"

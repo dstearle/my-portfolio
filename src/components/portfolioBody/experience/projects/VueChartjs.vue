@@ -25,7 +25,7 @@
                 <strong class="mr-auto">
 
                     <!-- Live Demo -->
-                    <a href="https://github.com/dstearle/laravel-qa">live demo</a>
+                    <a href="">live demo</a>
 
                 </strong>
 
