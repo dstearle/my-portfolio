@@ -7,7 +7,7 @@
         
         <p class="container">
             I am currently a Full Stack Web Developer interning for a start up company in San Diego called RipeMetrics. 
-            Currently I am searching for new opportunities for work wherever they may be, so contact me today and lets see how I can help build your project! 
+            I am always searching for new opportunities for work wherever they may be, so contact me today and lets see how I can help build your project! 
         </p>
             
         <!-- Education Title -->

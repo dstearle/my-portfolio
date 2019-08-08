@@ -15,7 +15,7 @@
                     data-trigger="hover"
                     data-content="Click here to copy my email to your clipboard"
                 >
-                    <img src="./../../../assets/images/favEmail.png" class="contactFav" alt="Email Favicon">
+                    <img src="./../../../assets/favicons/favEmail.png" class="contactFav" alt="Email Favicon">
                     <span> dallas.st.earle@gmail.com</span>
                 </button>
             </div>
@@ -33,7 +33,7 @@
                     href="https://www.linkedin.com/in/dallas-earle-98baa87b" 
                     role="button"
                 >
-                    <img src="./../../../assets/images/favLinkedIn.png" class="contactFav" alt="LinkdIn Favicon">
+                    <img src="./../../../assets/favicons/favLinkedIn.png" class="contactFav" alt="LinkdIn Favicon">
                     <span> Dallas Earle</span>
                 </a>
             </div>
@@ -51,7 +51,7 @@
                     href="https://github.com/dstearle" 
                     role="button"
                 >
-                    <img src="./../../../assets/images/favGithub.png" class="contactFav" alt="Github Favicon">
+                    <img src="./../../../assets/favicons/favGithub.png" class="contactFav" alt="Github Favicon">
                     <span> dstearle</span>
                 </a>
             </div>
