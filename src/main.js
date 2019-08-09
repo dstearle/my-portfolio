@@ -6,11 +6,13 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import jQuery from 'jquery';
 import VueRouter from 'vue-router';
 import Vuelidate from 'vuelidate';
+import VueClipboard from 'vue-clipboard2'
 
 import { routes } from './routes';
 
 Vue.use(VueRouter);
 Vue.use(Vuelidate);
+Vue.use(VueClipboard);
 
 Vue.config.productionTip = false
 

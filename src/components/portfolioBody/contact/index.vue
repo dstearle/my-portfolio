@@ -14,6 +14,7 @@
                     data-placement="top"
                     data-trigger="hover"
                     data-content="Click here to copy my email to your clipboard"
+                    v-clipboard:copy="emailAddress"
                 >
                     <img src="./../../../assets/favicons/favEmail.png" class="contactFav" alt="Email Favicon">
                     <span> dallas.st.earle@gmail.com</span>
@@ -70,11 +71,22 @@
 
     export default {
 
+        data() {
+
+            return {
+
+                emailAddress: 'dallas.st.earle@gmail.com',
+
+            }
+
+        },
+
         components: {
             
             appContactForm: ContactForm,
             
         },
+
         mounted() {
             // For contact button popovers
             $(function() {
