@@ -4,20 +4,14 @@
 
         <div class="card-columns">
 
-            <!-- Company Logo Card -->
-            <div class="card company-card">
-            
-                <div class="card-body">
+            <!-- Company Card -->
+            <div class="card">
 
-                    <!-- Company Logo -->
-                    <div class="text-center">
-                        <img src="./../../../../assets/images/ripeMetricsLogo.png" class="company-logo">
-                    </div>
+                <!-- Company Website Photo -->
+                <img src="./../../../../assets/images/ripeMetricsSite.png" class="card-img-top company-card">
 
-                    <!-- Stretched Hyperlink To Company Website -->
-                    <a href="https://ripemetrics.com/" class="stretched-link"></a>
-
-                </div>
+                <!-- Stretched Hyperlink To Company Website -->
+                <a href="https://ripemetrics.com/" class="stretched-link"></a>
                 
             </div>
 
@@ -81,10 +75,13 @@
 
 <style scoped>
 
-    .company-logo {height: 200px; width: 400px;}
-
     .job-card {min-height: 280px;}
 
+    .card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+    }
     .company-card {min-height: 280px;}
     .company-card:hover {
         background-color: red;
