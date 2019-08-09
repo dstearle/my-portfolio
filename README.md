@@ -34,7 +34,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 - Fix HMR error (sockjs related from previous project?), fix popover depedency error
 - Portfolio Title: import Yesteryear font, set up banner, style area
-- Navbar: add smooth scroll, style area
+- Navbar: style area
 - About Section: style area
 - Experience Section: 
     - Work Experience: work on RM chart area, make RM site preview better, style area
