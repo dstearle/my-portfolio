@@ -2,7 +2,7 @@
     
     <div class="container">
 
-        <div class="card-columns">
+        <div class="card-columns pb-3">
 
             <!-- Company Card -->
             <div class="card">
