@@ -2,6 +2,7 @@
     
     <div id="contact" class="container pt-5">
 
+        <!-- Section Title -->
         <h3 class="text-primary pt-5 pb-4">Contact</h3>
 
         <div class="row">
@@ -15,9 +16,10 @@
                     data-trigger="hover"
                     data-content="Click here to copy my email to your clipboard"
                     v-clipboard:copy="emailAddress"
+                    @click="copyEmail"
                 >
                     <img src="./../../../assets/favicons/favEmail.png" class="contactFav" alt="Email Favicon">
-                    <span> dallas.st.earle@gmail.com</span>
+                    <span> {{ emailButton }}</span>
                 </button>
             </div>
 
@@ -59,6 +61,7 @@
 
         </div>
 
+        <!-- Contact Form -->
         <app-contact-form></app-contact-form>
 
     </div>
@@ -76,6 +79,7 @@
             return {
 
                 emailAddress: 'dallas.st.earle@gmail.com',
+                emailButton: 'dallas.st.earle@gmail.com',
 
             }
 
@@ -92,6 +96,19 @@
             $(function() {
               $('[data-toggle="popover"]').popover();
             });
+        },
+
+        methods: {
+            // Logic for email button
+            copyEmail() {
+                // Indicates email has been copied to clipboard
+                this.emailButton = 'Copied!'
+                setTimeout(() => {
+                // Resets button text after timeout
+                this.emailButton = 'dallas.st.earle@gmail.com'
+                }, 2000)
+            },
+
         },
         
     }
