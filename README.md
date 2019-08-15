@@ -2,6 +2,14 @@
 
 <br>
 
+<strong>Link To Live Website :</strong>
+
+- Coming soon.
+
+<strong>What Is This Project? :</strong>
+
+- This is my current portfolio website that features work experience, personal projects I have made and much more!
+
 <strong>To Do List:</strong>
 
 - Fix HMR error (sockjs related from previous project?), fix popover depedency error
