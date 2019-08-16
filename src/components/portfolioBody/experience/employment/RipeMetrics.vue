@@ -8,7 +8,7 @@
             <div class="card">
 
                 <!-- Company Website Photo -->
-                <img src="./../../../../assets/images/ripeMetricsSite.png" class="card-img-top company-card">
+                <img src="./../../../../assets/images/ripeMetricsSite.png" class="card-img company-card">
 
                 <!-- Stretched Hyperlink To Company Website -->
                 <a href="https://ripemetrics.com/" class="stretched-link"></a>
