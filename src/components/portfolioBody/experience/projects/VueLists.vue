@@ -10,6 +10,14 @@
             <!-- Project Title -->
             <h5 class="card-title">Vue-Lists</h5>
 
+            <div class="row" style="padding:10px 20px 10px 20px">
+
+                <span class="badge badge-info mr-1">Vue.js</span>
+
+                <span class="badge badge-info mx-1">Javascript</span>
+
+            </div>
+
             <!-- Project Description -->
             <p class="card-text">
                 This project contains different types of lists that can be used for Vue.js projects.

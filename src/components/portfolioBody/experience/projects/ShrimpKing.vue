@@ -10,6 +10,16 @@
             <!-- Project Title -->
             <h5 class="card-title">Shrimp King</h5>
 
+            <div class="row" style="padding:10px 20px 10px 20px">
+
+                <span class="badge badge-warning text-white mr-1">Vue.js</span>
+
+                <span class="badge badge-warning text-white mx-1">Vuex</span>
+
+                <span class="badge badge-warning text-white mx-1">Javascript</span>
+
+            </div>
+
             <!-- Project Description -->
             <p class="card-text">
                 In this project you can buy or sell different types of shrimp over a period of time. 
