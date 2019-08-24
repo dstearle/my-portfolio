@@ -10,6 +10,16 @@
             <!-- Project Title -->
             <h5 class="card-title">Laravel-Qa</h5>
 
+            <div class="row" style="padding:10px 20px 10px 20px">
+
+                <span class="badge badge-danger mr-1">PHP</span>
+
+                <span class="badge badge-danger mx-1">MVC</span>
+
+                <span class="badge badge-danger mx-1">Laravel</span>
+
+            </div>
+
             <!-- Project Description -->
             <p class="card-text">
                 I made this project using Laravel and PHP to demonstrate the concept of the MVC (Model View Controller).
