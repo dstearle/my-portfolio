@@ -52,7 +52,9 @@
 
 <style>
 
-    .project-card {min-height: 580px;}
+    .card-img-top {
+        height: 280px;
+    }
 
     @media (min-width: 576px) {
         .card-columns {
