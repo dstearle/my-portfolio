@@ -5,10 +5,33 @@
         <div class="card-columns pb-3">
 
             <!-- Company Card -->
-            <div class="card">
+            <div 
+                class="card"
+                @mouseover="activeLink = true"
+                @mouseleave="activeLink = false"
+            >
 
                 <!-- Company Website Photo -->
                 <img src="./../../../../assets/images/ripeMetricsSite.png" class="card-img company-card">
+
+                <!-- Photo Overlay -->
+                <div 
+                    class="card-img-overlay text-center" 
+                    :class="{ active: !activeLink , 'photoHover': activeLink }"
+                >
+
+                    <!-- Overlay Text -->
+                    <div 
+                        class="text-white" 
+                        style="opacity: 1; margin-top: 25%;"
+                        v-show="activeLink"
+                    >
+
+                        Visit RipeMetric's Website
+
+                    </div>
+
+                </div>
 
                 <!-- Stretched Hyperlink To Company Website -->
                 <a href="https://ripemetrics.com/" class="stretched-link"></a>
@@ -73,6 +96,36 @@
 
 </template>
 
+<script>
+    
+    export default {
+                
+        data() {
+            
+            return {
+                
+                activeLink: false,
+                
+            }
+            
+        },
+        
+        methods: {
+
+            // Method for link hover toggles
+            mouseOver() {
+
+                // Toggles website link classes
+                this.activeLink = !this.activeLink;
+
+            },
+            
+        }
+        
+    }
+
+</script>
+
 <style scoped>
 
     .job-card {min-height: 280px;}
@@ -83,9 +136,9 @@
         object-fit: cover;
     }
     .company-card {min-height: 280px;}
-    .company-card:hover {
-        background-color: red;
-        opacity: 0.6;
+    .photoHover {
+        background: #000000; 
+        opacity: 0.8;
     }
 
     @media (min-width: 576px) {
