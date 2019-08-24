@@ -17,7 +17,7 @@
                 Users can also upvote questions and answers or favorite them for reference.
             </p>
 
-            <br><br>
+            <br><br><br>
 
             <!-- Card Footer -->
             <div class="row" style="padding:0px 20px 0px 20px">

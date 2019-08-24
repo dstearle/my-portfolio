@@ -15,7 +15,7 @@
 
             <laravel-qa></laravel-qa>
 
-            <vue-stock-trader></vue-stock-trader>
+            <shrimp-king></shrimp-king>
 
             <vue-Lists></vue-Lists>
             
@@ -29,8 +29,7 @@
 
     import RipeMetrics from "./employment/RipeMetrics.vue";
     import LaravelQa from "./projects/LaravelQa.vue";
-    import VueStockTrader from "./projects/VueStockTrader.vue";
-    // import VueChartjs from "./projects/VueChartjs";
+    import ShrimpKing from "./projects/ShrimpKing.vue";
     import VueLists from "./projects/VueLists";
     
     export default {
@@ -41,9 +40,7 @@
 
             laravelQa: LaravelQa,
 
-            vueStockTrader: VueStockTrader,
-
-            // vueChartjs: VueChartjs,
+            shrimpKing: ShrimpKing,
 
             vueLists: VueLists,
             
