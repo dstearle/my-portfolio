@@ -3,7 +3,7 @@
     <div class="card project-card">
 
         <!-- Project Image -->
-        <img src="./../../../../assets/images/vueListsImg.png" class="card-img-top" alt="Vue Lists Project">
+        <img src="./../../../../assets/images/vueListsImg.png" class="card-img-top" alt="Vue-Lists Project">
 
         <div class="card-body">
 
@@ -12,9 +12,11 @@
 
             <div class="row" style="padding:10px 20px 10px 20px">
 
-                <span class="badge badge-info mr-1">Vue.js</span>
+                <span class="badge badge-success mr-1">Vue.js</span>
 
-                <span class="badge badge-info mx-1">Javascript</span>
+                <span class="badge badge-info mx-1">NPM</span>
+
+                <span class="badge badge-warning text-white mx-1">Javascript</span>
 
             </div>
 
