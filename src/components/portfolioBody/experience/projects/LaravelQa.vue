@@ -3,7 +3,7 @@
     <div class="card project-card">
 
         <!-- Project Image -->
-        <img src="./../../../../assets/images/laravelQaImg.png" class="card-img-top" alt="Laravel Project">
+        <img src="./../../../../assets/images/laravelQaImg.png" class="card-img-top" alt="Laravel-Qa Project">
 
         <div class="card-body">
 
@@ -16,7 +16,7 @@
 
                 <span class="badge badge-danger mx-1">MVC</span>
 
-                <span class="badge badge-danger mx-1">Laravel</span>
+                <span class="badge badge-secondary mx-1">Laravel</span>
 
             </div>
 

@@ -12,7 +12,7 @@
             >
 
                 <!-- Company Website Photo -->
-                <img src="./../../../../assets/images/ripeMetricsSite.png" class="card-img company-card">
+                <img src="./../../../../assets/images/ripeMetricsSite.png" class="card-img company-card" alt="RipeMetrics Website">
 
                 <!-- Photo Overlay -->
                 <div 
