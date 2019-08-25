@@ -14,6 +14,7 @@
     "popper.js": "^1.15.0",
     "vue": "^2.6.10",
     "vue-clipboard2": "^0.3.0",
+    "vue-resource": "^1.5.1",
     "vue-router": "^3.0.7",
     "vuelidate": "^0.7.4"
   },
