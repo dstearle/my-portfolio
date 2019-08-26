@@ -29,5 +29,7 @@
 
 - JQuery
 - popper.js
+- vue-router
+- vue-resource
 - vuelidate: https://vuelidate.netlify.com/#sub-package-content
 - vue-clipboard2: https://github.com/Inndy/vue-clipboard2
