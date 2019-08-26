@@ -113,7 +113,8 @@
                 },
 
                 submitButton: 'Send',
-                submitStatus: null
+                submitStatus: null,
+
             }
 
         },
@@ -155,14 +156,23 @@
 
                 // Submits the message if all fields are valid
                 else {
+
                     // Indicates pending message
                     this.submitButton = 'Sending Message...'
+
                     // Sets the submit button to disabled
                     this.submitStatus = true
+
+                    // Posts the user's message to firebase
+                    this.$http.post('data.json', this.user)
+
+                    // Timeout for action
                     setTimeout(() => {
+
                     // Confirms message was sent after timeout
                     this.submitButton = 'Message Sent!'
                     }, 500)
+
                 }
                 
             },

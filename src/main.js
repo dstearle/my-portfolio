@@ -17,7 +17,7 @@ Vue.use(Vuelidate);
 Vue.use(VueClipboard);
 
 // VueResource link to firebase database
-Vue.http.options.root = 'https://vuejs2-27f10.firebaseio.com/';
+Vue.http.options.root = 'https://portfolio-contact-b92c7.firebaseio.com/';
 
 Vue.config.productionTip = false
 
