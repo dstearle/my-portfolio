@@ -109,6 +109,7 @@
                     name: '',
                     email: '',
                     message: '',
+                    date: '',
 
                 },
 
@@ -162,6 +163,10 @@
 
                     // Sets the submit button to disabled
                     this.submitStatus = true
+
+                    // Logs the date message is sent
+                    let messageDate = new Date();
+                    this.user.date = messageDate;
 
                     // Posts the user's message to firebase
                     this.$http.post('data.json', this.user)
