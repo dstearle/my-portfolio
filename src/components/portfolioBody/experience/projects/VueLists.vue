@@ -33,7 +33,7 @@
                 <strong class="mr-auto">
 
                     <!-- Live Demo -->
-                    <a href="">live demo</a>
+                    <!-- <a href="">live demo</a> -->
 
                 </strong>
 
