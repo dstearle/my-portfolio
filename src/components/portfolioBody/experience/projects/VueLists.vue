@@ -14,8 +14,6 @@
 
                 <span class="badge badge-success mr-1">Vue.js</span>
 
-                <span class="badge badge-info mx-1">NPM</span>
-
                 <span class="badge badge-warning text-white mx-1">Javascript</span>
 
             </div>
