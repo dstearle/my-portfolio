@@ -5,61 +5,75 @@
         <div class="card-columns">
             
             <!-- Palomar College -->
-            <div class="">
-                
-                <div class="card">
+            <div class="card">
 
-                    <!-- Card Title -->
-                    <div class="card-header">
-                        <h6>Palomar College (2017-2019)</h6>
+                <!-- Card Title -->
+                <div class="card-header">
+                    
+                    <h6>Palomar College (2017-2019)</h6>
+
+                </div>
+
+                <div class="card-body">
+
+                    <!-- Palomar College Seal -->
+                    <div class="text-center pb-3">
+
+                        <img 
+                            src="./../../../assets/images/palomarSeal.gif" 
+                            class="collegeSeal"
+                            alt="Palomar College Seal"
+                        >
+
                     </div>
 
-                    <div class="card-body">
+                    <!-- Degrees -->
+                    <div class="col text-center">
 
-                        <!-- Palomar College Seal -->
-                        <div class="text-center pb-3">
-                            <img src="./../../../assets/images/palomarSeal.gif" class="collegeSeal">
-                        </div>
+                        <div>Associates: Computer Science IT</div>
 
-                        <!-- Degrees -->
-                        <div class="col text-center">
-                            <div>Associates: Computer Science IT</div>
-                            <div>Certificate: Web Development</div>
-                        </div>
+                        <div>Certificate: Web Development</div>
 
                     </div>
 
                 </div>
-                
+
             </div>
     
             <!-- CSU San Bernardino -->
-            <div class="">
-                
-                <div class="card">
+            <div class="card">
 
-                    <!-- Card Title -->
-                    <div class="card-header">
-                        <h6>CSU San Bernardino (2009-2013)</h6>
+                <!-- Card Title -->
+                <div class="card-header">
+
+                    <h6>CSU San Bernardino (2009-2013)</h6>
+
+                </div>
+
+                <div class="card-body">
+
+                    <!-- CSU San Bernardino Seal -->
+                    <div class="text-center pb-3">
+
+                        <img 
+                            src="./../../../assets/images/csusbSeal.png" 
+                            class="collegeSeal"
+                            alt="CSUSB Seal"
+                        >
+
                     </div>
 
-                    <div class="card-body">
+                    <!-- Degrees -->
+                    <div class="col text-center">
 
-                        <!-- CSU San Bernardino Seal -->
-                        <div class="text-center pb-3">
-                            <img src="./../../../assets/images/csusbSeal.png" class="collegeSeal">
-                        </div>
+                        <div>Bachelors: Anthropology</div>
 
-                        <!-- Degrees -->
-                        <div class="col text-center">
-                            <div>Bachelors: Anthropology</div>
-                            <div>Minor: Criminal Justice</div>
-                        </div>
+                        <div>Minor: Criminal Justice</div>
 
                     </div>
 
                 </div>
-                
+
             </div>
             
         </div>
