@@ -1,15 +1,15 @@
 <template>
     
-    <div class="col">
+    <div class="container">
 
-        <div class="card">
+        <div class="card mb-3">
 
             <div class="card-body">
 
                 <!-- Skills & Tools Table -->
                 <table class="table table-borderless">
                     
-                    <tr v-for="skills of mySkills">
+                    <tr v-for="skills of mySkills" v-bind:key="skills">
                         <!-- Column 1 -->
                         <td class="text-center p-4">{{ skills.col1 }}</td>
                         <!-- Column 2 -->
@@ -23,6 +23,15 @@
             </div>
 
         </div>
+
+        <!-- Skills & Tools Text Area -->
+        <p>
+            As a web developer I am very flexible when it comes to working with a wide variety of tools. 
+            Whether your company uses frameworks such as Angular or React or if you primarily use template builders
+            such as Wordpress or Drupal, I am able to do it all! I personally build my websites and applications using Vue.js 
+            and Bootstrap since that is what I have the most experience with, however I will gladly build whatever you need 
+            using a different tool set if necessary.
+        </p>
 
     </div>
 
