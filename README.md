@@ -4,7 +4,7 @@
 
 <strong>Link To Live Website :</strong>
 
-- http://dallas-earle-portfolio.s3-website.us-east-2.amazonaws.com/
+- http://www.dstearle.com/
 
 <strong>What Is This Project? :</strong>
 
