@@ -12,10 +12,10 @@
 
         <hr>
 
-        <div class="text-center py-5">
+        <div class="text-center pb-2">
             
             <!-- Main Portfolio image -->
-            <img src="./../assets/images/DallasProfilePic.jpg" style="transform: rotate(90deg)" class="imgclass1" alt="Dallas Head Shot">
+            <img src="./../assets/images/dallasPortrait.png" class="imgclass1" alt="My Portfolio Photo">
             
         </div>
 
@@ -27,6 +27,8 @@
 
 <style>
 
+    .imgclass1 {border: none; border-radius: 50%; max-height: 400px; max-width: 250px;}
+    
     .nameBanner {background-color: white; color: #004466; padding: 10px 10px 10px 10px; text-align: center;}
     .nameBanner h1{font-family: Yesteryear; font-size: 500%;}
 

@@ -43,10 +43,3 @@
     }
 
 </script>
-
-
-<style>
-
-    .imgclass1 {border: none; border-radius: 50%; max-height: 250px; max-width: 400px;}
-
-</style>
