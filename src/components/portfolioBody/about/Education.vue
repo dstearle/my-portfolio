@@ -81,8 +81,8 @@
         <!-- Education Text Area -->
         <p>
             In 2017 I started taking computer science classes through Palomar College to see what the world of web development and tech was like.
-            I first started with a certificate program for web development and learned many of the basic skills needed to code such as basic html, css and javascript. 
-            When I had finished my certificate program, I felt that this was definitely a career I could see myself thriving in so I decided to continue my education by completing an associates degree in computer science where I further refined my skills.
+            Starting with a certificate program for web development, I learned many of the basic skills needed to code. 
+            When I had finished my certificate program, I felt that this was definitely a career I could see myself thriving in. I decided to continue my education by completing an associates degree in computer science where I further refined my skills.
             Although I may have completed both a cerficate program and an associates computer sciences, there is always more to learn in the world of web development!
         </p>
 

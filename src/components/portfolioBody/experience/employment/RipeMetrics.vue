@@ -68,7 +68,7 @@
         <!-- Company Info -->
         <div>
 
-            <h5>Who Are RipeMetrics?</h5>
+            <h5>Who Is RipeMetrics?</h5>
 
             <p>
                 "We’re a Canopy San Diego company and our mission is to elevate Customer Experience for the cannabis industry. 
@@ -84,9 +84,9 @@
             <h5>What Did I Accomplish There?</h5>
 
             <p>
-                As an intern at RipeMetrics I worked with a team of web developers and designers to help build and redesign the company's API.
+                Interning at RipeMetrics I worked with a team of web developers and designers to help build and redesign the company's API.
                 Working locally and in sandbox environments like AWS, I refactored parts of existing code and made new features in both the front-end and back-end.
-                My biggest contribution was reworking a major part of the main dashboard for their API in which I made a styled chart that represents a company's NPS score over different periods
+                My biggest contribution was reworking a major part of the main dashboard for their API. I made a styled chart that represents a company's NPS score over different periods
                 of time and gauges that represent product and order scores.
             </p>
 

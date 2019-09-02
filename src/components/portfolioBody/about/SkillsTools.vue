@@ -27,8 +27,8 @@
         <!-- Skills & Tools Text Area -->
         <p>
             As a web developer I am very flexible when it comes to what tools I use for building projects. 
-            I personally build my websites and applications using Vue.js and Bootstrap for the front-end since that is what I have the most experience with. 
-            Regardless of my personal preferences, I will gladly build whatever you need using a different tool set if necessary.
+            I enjoy building my websites and applications using Vue.js and Bootstrap for the front-end. 
+            Considering that every company has their own prefered set of tools and frameworks, I am able to adapt to those needs however necessary.
         </p>
 
     </div>
