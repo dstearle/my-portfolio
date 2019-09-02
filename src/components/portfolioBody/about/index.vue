@@ -7,8 +7,8 @@
         
         <p class="container">
             Hi there I'm Dallas, a full stack web developer based in San Diego. I love camping, trying out new breweries and taking my son to the zoo.
-            For the past year I have been interning for a start up company here in San Diego called RipeMetrics. 
-            I am always searching for new opportunities for work wherever they may be, so contact me today and lets see how I can help build your project! 
+            For the past year I have been interning for a start up company called RipeMetrics. 
+            Contact me today and lets see how I can further your company's goals or help build your project! 
         </p>
             
         <!-- Education Title -->

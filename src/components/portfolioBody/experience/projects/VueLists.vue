@@ -33,7 +33,7 @@
                 <strong class="mr-auto">
 
                     <!-- Live Demo -->
-                    <!-- <a href="">live demo</a> -->
+                    <a href="http://vue-lists.s3-website-us-west-2.amazonaws.com/">live demo</a>
 
                 </strong>
 
