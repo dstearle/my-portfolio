@@ -39,7 +39,7 @@
             </div>
 
             <!-- Employment Card -->
-            <div class="card job-card">
+            <div class="card company-card">
 
                 <!-- Company Name -->
                 <div class="card-header">
@@ -130,11 +130,6 @@
 
     .job-card {min-height: 280px;}
 
-    .card-img-top {
-        width: 100%;
-        height: 15vw;
-        object-fit: cover;
-    }
     .company-card {min-height: 280px;}
     .photoHover {
         background: #000000; 
