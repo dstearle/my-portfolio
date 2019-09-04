@@ -6,9 +6,13 @@
 
 - http://www.dstearle.com/
 
+<br>
+
 <strong>What Is This Project? :</strong>
 
 - This is my current portfolio website that features work experience, personal projects I have made and much more!
+
+<br>
 
 <strong>To Do List:</strong>
 
