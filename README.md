@@ -20,11 +20,11 @@
 - Navbar: style area
 - About Section: style area
 - Experience Section: 
-    - Work Experience: work on RM chart area, style area
+    - Work Experience: style area
     - Personal Projects: give links to demos, style area
 - Contact Section: look up new favicons for links, style area
 - Footer: import Yesteryear font, style area
-- Misc: hide #breadcrumbs in address bar, custom styled cards, sass colors?
+- Misc: Fix anchor tags in address bar, custom styled cards, sass colors?
 
 <br>
 
