@@ -10,13 +10,13 @@
             <!-- Project Title -->
             <h5 class="card-title">Laravel-Qa</h5>
 
-            <div class="row" style="padding:10px 20px 10px 20px">
+            <div class="row m-1">
 
-                <span class="badge badge-danger mr-1">PHP</span>
+                <span class="d-inline-flex m-1 badge badge-danger mr-1">PHP</span>
 
-                <span class="badge badge-danger mx-1">MVC</span>
+                <span class="d-inline-flex m-1 badge badge-danger mx-1">MVC</span>
 
-                <span class="badge badge-secondary mx-1">Laravel</span>
+                <span class="d-inline-flex m-1 badge badge-secondary mx-1">Laravel</span>
 
             </div>
 
@@ -27,7 +27,7 @@
                 Users can also upvote questions and answers or favorite them for reference.
             </p>
 
-            <br><br><br>
+            <br><br><br><br>
 
             <!-- Card Footer -->
             <div class="row" style="padding:0px 20px 0px 20px">
