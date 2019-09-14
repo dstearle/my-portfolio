@@ -10,13 +10,15 @@
             <!-- Project Title -->
             <h5 class="card-title">Shrimp King</h5>
 
-            <div class="row" style="padding:10px 20px 10px 20px">
+            <div class="row m-1" >
 
-                <span class="badge badge-success mr-1">Vue.js</span>
+                <span class="d-inline-flex m-1 badge badge-success mr-1">Vue.js</span>
 
-                <span class="badge badge-success mx-1">Vuex</span>
+                <span class="d-inline-flex m-1 badge badge-success mx-1">Vuex</span>
 
-                <span class="badge badge-warning text-white mx-1">Javascript</span>
+                <span class="d-inline-flex m-1 badge badge-warning text-white mx-1">Javascript</span>
+
+                <span class="d-inline-flex m-1 badge badge-info text-white mx-1">Responsive</span>
 
             </div>
 
