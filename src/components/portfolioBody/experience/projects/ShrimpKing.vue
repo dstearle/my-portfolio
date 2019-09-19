@@ -18,6 +18,8 @@
 
                 <span class="d-inline-flex m-1 badge badge-warning text-white mx-1">Javascript</span>
 
+                <span class="d-inline-flex m-1 badge badge-dark text-white mx-1">Bootstrap</span>
+
                 <span class="d-inline-flex m-1 badge badge-info text-white mx-1">Responsive</span>
 
             </div>
