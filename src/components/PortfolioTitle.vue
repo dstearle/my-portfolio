@@ -15,7 +15,7 @@
         <div class="text-center pb-2">
             
             <!-- Main Portfolio image -->
-            <img src="./../assets/images/dallasPortrait.png" class="imgclass1" alt="My Portfolio Photo">
+            <img src="./../assets/images/dstearle.jpg" class="imgclass1" alt="Portfolio Photo">
             
         </div>
 
