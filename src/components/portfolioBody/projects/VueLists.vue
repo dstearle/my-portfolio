@@ -3,7 +3,7 @@
     <div class="card project-card">
 
         <!-- Project Image -->
-        <img src="./../../../../assets/images/vueListsImg.png" class="card-img-top" alt="Vue-Lists Project">
+        <img src="./../../../assets/images/vueListsImg.png" class="card-img-top" alt="Vue-Lists Project">
 
         <div class="card-body">
 

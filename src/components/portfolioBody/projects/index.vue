@@ -1,28 +1,43 @@
 <template>
     
-    <div id="portfolio" class="container py-5">
+    <div id="projects" class="container py-5">
 
         <!-- Section Title -->
-        <h3 class="text-primary pt-5 pb-4">Work Experience</h3>
-                    
-        <ripe-metrics></ripe-metrics>
+        <h3 class="text-primary pt-5 pb-4">Personal Projects</h3>
+
+        <!-- Personal Projects -->
+        <div class="container card-columns">
+
+            <fire-sight></fire-sight>
+
+            <shrimp-king></shrimp-king>
+
+            <vue-Lists></vue-Lists>
+            
+        </div>
 
     </div>
-    
+
 </template>
 
 <script>
 
-    import RipeMetrics from "./employment/RipeMetrics.vue";
-    
-    export default {
+    import FireSight from "./FireSight";
+    import ShrimpKing from "./ShrimpKing.vue";
+    import VueLists from "./VueLists";
 
-        components: {
-            
-            ripeMetrics: RipeMetrics,
-            
-        },
+    export default {
         
+        components: {
+
+            fireSight: FireSight,
+
+            shrimpKing: ShrimpKing,
+
+            vueLists: VueLists,
+
+        }
+
     }
 
 </script>

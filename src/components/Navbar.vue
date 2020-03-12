@@ -20,6 +20,11 @@
                 <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
 
+            <!-- Projects -->
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+
             <!-- Contact -->
             <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>

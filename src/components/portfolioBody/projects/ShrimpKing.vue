@@ -3,7 +3,7 @@
     <div class="card project-card">
 
         <!-- Project Image -->
-        <img src="./../../../../assets/images/shrimpKingImg.png" class="card-img-top" alt="Shrimp King Project">
+        <img src="./../../../assets/images/shrimpKingImg.png" class="card-img-top" alt="Shrimp King Project">
 
         <div class="card-body">
 
@@ -20,7 +20,7 @@
 
                 <span class="d-inline-flex m-1 badge badge-dark text-white mx-1">Bootstrap</span>
 
-                <span class="d-inline-flex m-1 badge badge-info text-white mx-1">Responsive</span>
+                <span class="d-inline-flex m-1 badge badge-info text-white mx-1">Chart.js</span>
 
             </div>
 

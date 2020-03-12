@@ -24,13 +24,6 @@
 
         </div>
 
-        <!-- Skills & Tools Text Area -->
-        <p>
-            As a web developer I am very flexible when it comes to what tools I use for building projects. 
-            I enjoy building my websites and applications using Vue.js and Bootstrap for the front-end. 
-            Considering that every company has their own prefered set of tools and frameworks, I am able to adapt to those needs however necessary.
-        </p>
-
     </div>
 
 </template>
