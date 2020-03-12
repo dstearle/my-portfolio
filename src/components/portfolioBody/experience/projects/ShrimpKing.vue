@@ -31,7 +31,7 @@
                 Each day the market will offer shrimp with different prices and quantities so you can wait to buy low then sell when the market price is high to make a profit.
             </p>
 
-            <br><br>
+            <br><br><br>
 
             <!-- Card Footer -->
             <div class="row" style="padding:0px 20px 0px 20px">

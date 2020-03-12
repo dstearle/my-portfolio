@@ -13,7 +13,7 @@
         <!-- Personal Projects -->
         <div class="container card-columns">
 
-            <laravel-qa></laravel-qa>
+            <fire-sight></fire-sight>
 
             <shrimp-king></shrimp-king>
 
@@ -28,7 +28,7 @@
 <script>
 
     import RipeMetrics from "./employment/RipeMetrics.vue";
-    import LaravelQa from "./projects/LaravelQa.vue";
+    import FireSight from "./projects/FireSight.vue";
     import ShrimpKing from "./projects/ShrimpKing.vue";
     import VueLists from "./projects/VueLists";
     
@@ -38,7 +38,7 @@
             
             ripeMetrics: RipeMetrics,
 
-            laravelQa: LaravelQa,
+            fireSight: FireSight,
 
             shrimpKing: ShrimpKing,
 
