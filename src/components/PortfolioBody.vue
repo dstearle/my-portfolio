@@ -8,8 +8,11 @@
         <!-- Introduction, Education & Skills -->
         <app-about></app-about>
 
-        <!-- Work Experience & Portfolio Projects -->
+        <!-- Work Experience -->
         <app-experience></app-experience>
+
+        <!--Portfolio Projects -->
+        <app-projects></app-projects>
 
         <br><br><br>
 
@@ -28,6 +31,7 @@
     import PortfolioTitle from "./PortfolioTitle.vue";
     import About from "./portfolioBody/about/index.vue";
     import Experience from "./portfolioBody/experience/index";
+    import Projects from "./portfolioBody/projects/index";
     import Contact from "./portfolioBody/contact/index.vue";
     import Footer from "./Footer.vue";
 
@@ -40,6 +44,8 @@
             appAbout: About,
 
             appExperience: Experience,
+
+            appProjects: Projects,
 
             appContact: Contact,
 

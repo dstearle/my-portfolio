@@ -68,7 +68,7 @@
         <!-- Company Info -->
         <div>
 
-            <h5>Who Is RipeMetrics?</h5>
+            <h5>About RipeMetrics...</h5>
 
             <p>
                 "We’re a Canopy San Diego company and our mission is to elevate Customer Experience for the cannabis industry. 

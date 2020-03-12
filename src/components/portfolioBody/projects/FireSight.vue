@@ -3,7 +3,7 @@
     <div class="card project-card">
 
         <!-- Project Image -->
-        <img src="./../../../../assets/images/fireSightImg.png" class="card-img-top" alt="Laravel-Qa Project">
+        <img src="./../../../assets/images/fireSightImg.png" class="card-img-top" alt="Laravel-Qa Project">
 
         <div class="card-body">
 
@@ -22,7 +22,7 @@
 
                 <span class="d-inline-flex m-1 badge badge-secondary mx-1">Authentication</span>
 
-                <span class="d-inline-flex m-1 badge badge-secondary mx-1">Leaflets</span>
+                <span class="d-inline-flex m-1 badge badge-info mx-1">Leaflets</span>
 
             </div>
 
