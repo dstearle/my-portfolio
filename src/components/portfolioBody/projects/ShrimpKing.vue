@@ -20,6 +20,8 @@
 
                 <span class="d-inline-flex m-1 badge badge-dark text-white mx-1">Bootstrap</span>
 
+                <span class="d-inline-flex m-1 badge badge-primary text-white mx-1">Firebase</span>
+
                 <span class="d-inline-flex m-1 badge badge-info text-white mx-1">Chart.js</span>
 
             </div>
