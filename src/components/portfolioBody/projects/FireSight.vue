@@ -16,9 +16,9 @@
 
                 <span class="d-inline-flex m-1 badge badge-danger mr-1">PHP</span>
 
-                <span class="d-inline-flex m-1 badge badge-secondary mx-1">MVC</span>
-
                 <span class="d-inline-flex m-1 badge badge-primary mx-1">MySQL</span>
+
+                <span class="d-inline-flex m-1 badge badge-secondary mx-1">MVC</span>
 
                 <span class="d-inline-flex m-1 badge badge-secondary mx-1">Authentication</span>
 
@@ -47,7 +47,7 @@
                 <strong class="ml-auto">
 
                     <!-- Github Repo -->
-                    <a href="https://github.com/dstearle/laravel-qa">github repo</a>
+                    <a href="https://github.com/dstearle/fire-sight">github repo</a>
 
                 </strong>
 
